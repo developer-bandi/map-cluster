@@ -1,0 +1,50 @@
+{
+  "name": "map-cluster",
+  "version": "1.0.0",
+  "description": "clustring based map and make result with cluster data",
+  "main": "./dist/map-cluster.js",
+  "module": "./dist/map-cluster.js",
+  "types": "./dist/type/map-cluster.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "webpack",
+    "test": "jest --watch"
+  },
+  "keywords": [
+    "map",
+    "cluster",
+    "clustering",
+    "kakao-map",
+    "kakaomap",
+    "naver-map",
+    "navermap"
+  ],
+  "author": "kimsangdu <puki4416@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/puki4416/map-cluster",
+  "bugs": {
+    "url": "https://github.com/puki4416/map-cluster",
+    "email": "puki4416@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/puki4416/map-cluster"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.3",
+    "@babel/preset-env": "^7.20.2",
+    "babel-loader": "^9.1.2",
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^11.0.0",
+    "jest": "^29.5.0",
+    "webpack": "^5.76.2",
+    "webpack-cli": "^5.0.1"
+  },
+  "exports": {
+    ".": {
+      "default": "./dist/map-cluster.js"
+    }
+  }
+}
